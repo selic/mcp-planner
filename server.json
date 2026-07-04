@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.selic/mcp-planner",
+  "title": "Microsoft Planner",
+  "description": "Microsoft Planner MCP server — plans, buckets, tasks via Microsoft Graph, ETags handled",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/selic/mcp-planner",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/selic/mcp-planner#readme",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "mcp-planner",
+      "version": "0.1.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "MS_TENANT_ID",
+          "description": "Microsoft Entra ID tenant id (GUID or domain)",
+          "isRequired": true,
+          "isSecret": false
+        },
+        {
+          "name": "MS_CLIENT_ID",
+          "description": "Entra app registration client id",
+          "isRequired": true,
+          "isSecret": false
+        },
+        {
+          "name": "MS_CLIENT_SECRET",
+          "description": "Entra app registration client secret (app needs Tasks.ReadWrite.All, GroupMember.Read.All, User.Read.All application permissions)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
