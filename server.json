@@ -3,7 +3,7 @@
   "name": "io.github.selic/mcp-planner",
   "title": "Microsoft Planner",
   "description": "Microsoft Planner MCP server — plans, buckets, tasks via Microsoft Graph, ETags handled",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "url": "https://github.com/selic/mcp-planner",
     "source": "github"
@@ -14,7 +14,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "mcp-planner",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "runtimeHint": "npx",
       "transport": {
         "type": "stdio"
@@ -37,6 +37,13 @@
           "description": "Entra app registration client secret (app needs Tasks.ReadWrite.All, GroupMember.Read.All, User.Read.All application permissions)",
           "isRequired": true,
           "isSecret": true
+        },
+        {
+          "name": "PLANNER_ADVANCED_TOOLSET",
+          "description": "true/1 registers the advanced toolset (graph_get, graph_find_endpoint) — a read-only escape hatch limited to /planner, /groups, /users",
+          "isRequired": false,
+          "isSecret": false,
+          "default": "false"
         }
       ]
     }
