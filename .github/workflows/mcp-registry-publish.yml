@@ -14,7 +14,7 @@ on:
 
 permissions:
   contents: read
-  id-token: write # OIDC token for the io.github.selic/* namespace
+  id-token: write # OIDC token for the io.github.mspstack/* namespace
 
 jobs:
   publish:

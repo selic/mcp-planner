@@ -1,14 +1,14 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.selic/mcp-planner",
+  "name": "io.github.mspstack/mcp-planner",
   "title": "Microsoft Planner",
   "description": "Microsoft Planner MCP server — plans, buckets, tasks via Microsoft Graph, ETags handled",
   "version": "0.2.0",
   "repository": {
-    "url": "https://github.com/selic/mcp-planner",
+    "url": "https://github.com/mspstack/mcp-planner",
     "source": "github"
   },
-  "websiteUrl": "https://github.com/selic/mcp-planner#readme",
+  "websiteUrl": "https://github.com/mspstack/mcp-planner#readme",
   "packages": [
     {
       "registryType": "npm",

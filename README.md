@@ -2,7 +2,7 @@
 
 MCP server for **Microsoft Planner** via the Microsoft Graph API. Find groups and plans, list buckets and tasks, and create, update, assign, complete, or delete tasks — including descriptions and checklists — with Planner's ETag concurrency handled automatically.
 
-Sibling project to [mcp-itglue](https://github.com/selic/mcp-itglue) and [mcp-connectwise-psa](https://github.com/selic/mcp-connectwise-psa) — same architecture.
+Sibling project to [mcp-itglue](https://github.com/mspstack/mcp-itglue) and [mcp-connectwise-psa](https://github.com/mspstack/mcp-connectwise-psa) — same architecture.
 
 ## Tools
 
