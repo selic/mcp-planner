@@ -2,15 +2,15 @@
   "name": "mcp-planner",
   "version": "0.2.0",
   "description": "MCP server for Microsoft Planner via Microsoft Graph — plans, buckets, and tasks (create, update, assign, complete) with automatic ETag concurrency handling",
-  "mcpName": "io.github.selic/mcp-planner",
+  "mcpName": "io.github.mspstack/mcp-planner",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/selic/mcp-planner.git"
+    "url": "git+https://github.com/mspstack/mcp-planner.git"
   },
-  "homepage": "https://github.com/selic/mcp-planner#readme",
+  "homepage": "https://github.com/mspstack/mcp-planner#readme",
   "bugs": {
-    "url": "https://github.com/selic/mcp-planner/issues"
+    "url": "https://github.com/mspstack/mcp-planner/issues"
   },
   "main": "dist/index.js",
   "bin": {

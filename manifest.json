@@ -12,9 +12,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/selic/mcp-planner"
+    "url": "https://github.com/mspstack/mcp-planner"
   },
-  "homepage": "https://github.com/selic/mcp-planner",
+  "homepage": "https://github.com/mspstack/mcp-planner",
   "keywords": ["microsoft-planner", "planner", "microsoft-graph", "tasks", "microsoft-365"],
   "server": {
     "type": "node",
